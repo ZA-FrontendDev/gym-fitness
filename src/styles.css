@@ -1,6 +1,7 @@
 @import "tailwindcss" source(none);
-@source "../src";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600;700;800;900&display=swap');
 @import "tw-animate-css";
+@source "../src";
 
 @custom-variant dark (&:is(.dark *));
 
@@ -37,8 +38,6 @@
   --font-display: "Bebas Neue", "Impact", sans-serif;
   --font-body: "Inter", system-ui, sans-serif;
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600;700;800;900&display=swap');
 
 :root {
   --radius: 0.875rem;
